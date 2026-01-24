@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'poppins';
+    font-weight: 400;
+    src: url('../fonts/Poppins-Regular.woff2') format('truetype');
+}
+@font-face {
+    font-family: 'poppins';
+    font-weight: 500;
+    src: url('../fonts/Poppins-Medium.woff2') format('truetype');
+}
+@font-face {
+    font-family: 'poppins';
+    font-weight: 600;
+    src: url('../fonts/Poppins-SemiBold.woff2') format('truetype');
+}
+@font-face {
+    font-family: 'poppins';
+    font-weight: 700;
+    src: url('../fonts/Poppins-Bold.woff2') format('truetype');
+}
+@font-face {
+    font-family: 'poppins';
+    font-weight: 800;
+    src: url('../fonts/Poppins-ExtraBold.woff2') format('truetype');
+}
+@layer base {
+  body {
+    font-family: 'poppins', sans-serif;
+  }
+}
+:root {
+    --primary: #070D18;
+    --normal: #ffffff;
+    --secondary: #000000;
+    --divider: #CECECE;
+    --color-control: #DBDBDB;
+    --pink: #FD5B71;
+    --light-pink: #FFEFF1;
+    --blue: #41BBEA;
+    --contact: #42BDEC;
+    --repeat :#828282;
+    --define: #505050;
+    --card: #808080;
+    --block: #797979;
+    --brand: #6A6A6A;
+    --muted: #424242;
+    --light-gray: #737373;
+    --purple: #6E00FA;
+    --light-purple: #F5EEFC;
+    --light-black: #C4C4C4;
+
+    --leading-178: 1.78;
+    --leading-211: 2.11;
+    --leading-211: 1.89;
+    --leading-100: 100%;
+    --leading-191: 1.91;
+    --leading-tight: 20px;
+
+    --tracking-1: 0.01em;
+
+    --container-main: 1310px;
+    --fs-42: 42px;
+    
+}
+
+@theme {
+    --color-primary: var(--primary);
+    --color-normal:var(--normal);
+    --color-secondary:var(--secondary);
+    --color-divider:var(--divider);
+    --color-color-control:var(--color-control);
+    --color-pink:var(--pink);
+    --color-light-pink:var(--light-pink);
+    --color-blue:var(--blue);
+    --color-contact:var(--contact);
+    --color-repeat:var(--repeat);
+    --color-define:var(--define);
+    --color-card:var(--card);
+    --color-block:var(--block);
+    --color-brand:var(--brand);
+    --color-muted:var(--muted);
+    --color-light-gray:var(--light-gray);
+    --color-purple:var(--purple);
+    --color-light-purple:var(--light-purple);
+    --color-light-black:var(--light-black);
+
+    --leading-178: var(--leading-178);
+    --leading-211: var(--leading-211);
+    --leading-189: var(--leading-189);
+    --leading-100: var(--leading-100);
+    --leading-191: var(--leading-191);
+    --leading-tight: var(--leading-tight);
+
+    --tracking-1: var(--tracking-1);
+
+
+    --max-w-container-main: var(--container-main);
+     --text-42: var(--fs-42);
+}
+
+@utility container-custom {
+  @apply max-w-327.5 mx-auto px-5;
+}
+@utility footer-span{
+    @apply px-7.5 py-1 rounded-sm bg-light-black/19 text-xs font-light leading-191
+}
