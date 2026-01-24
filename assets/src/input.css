@@ -58,9 +58,11 @@
     --box-gray: #F1F1F1;
     --box-purple: #F1E8FF;
     --light-green: #E2FFF1;
+    --inert: #C4C4C4;
 
     --leading-178: 1.78;
     --leading-211: 2.11;
+    --leading-151: 1.51;
     --leading-211: 1.89;
     --leading-100: 100%;
     --leading-191: 1.91;
@@ -74,6 +76,7 @@
     --fs-9: 9px;
     --fs-25: 25px;
     --fs-65: 65px;
+    --fs-35: 35px;
     
 }
 
@@ -105,9 +108,11 @@
     --color-box-gray:var(--box-gray);
     --color-box-purple:var(--box-purple);
     --color-light-green:var(--light-green);
+    --color-inert:var(--inert);
 
     --leading-178: var(--leading-178);
     --leading-211: var(--leading-211);
+    --leading-151: var(--leading-151);
     --leading-189: var(--leading-189);
     --leading-100: var(--leading-100);
     --leading-191: var(--leading-191);
@@ -122,6 +127,7 @@
      --text-9: var(--fs-9);
       --text-25: var(--fs-25);
       --text-65: var(--fs-65);
+       --text-35: var(--fs-35);
 }
 
 @utility container-custom {
