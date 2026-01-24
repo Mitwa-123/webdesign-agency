@@ -50,6 +50,14 @@
     --purple: #6E00FA;
     --light-purple: #F5EEFC;
     --light-black: #C4C4C4;
+    --box-color: #F1F1F1;
+    --light-yellow: #FDFBDA;
+    --light-blue: #E2F3FF;
+    --box-pink: #FFE7FB;
+    --light-brown: #F6EEE7;
+    --box-gray: #F1F1F1;
+    --box-purple: #F1E8FF;
+    --light-green: #E2FFF1;
 
     --leading-178: 1.78;
     --leading-211: 2.11;
@@ -62,6 +70,10 @@
 
     --container-main: 1310px;
     --fs-42: 42px;
+    --fs-15: 15px;
+    --fs-9: 9px;
+    --fs-25: 25px;
+    --fs-65: 65px;
     
 }
 
@@ -85,6 +97,14 @@
     --color-purple:var(--purple);
     --color-light-purple:var(--light-purple);
     --color-light-black:var(--light-black);
+    --color-box-color:var(--box-color);
+    --color-light-yellow:var(--light-yellow);
+    --color-light-blue:var(--light-blue);
+    --color-box-pink:var(--box-pink);
+    --color-light-brown:var(--light-brown);
+    --color-box-gray:var(--box-gray);
+    --color-box-purple:var(--box-purple);
+    --color-light-green:var(--light-green);
 
     --leading-178: var(--leading-178);
     --leading-211: var(--leading-211);
@@ -98,6 +118,10 @@
 
     --max-w-container-main: var(--container-main);
      --text-42: var(--fs-42);
+     --text-15: var(--fs-15);
+     --text-9: var(--fs-9);
+      --text-25: var(--fs-25);
+      --text-65: var(--fs-65);
 }
 
 @utility container-custom {
@@ -105,4 +129,13 @@
 }
 @utility footer-span{
     @apply px-7.5 py-1 rounded-sm bg-light-black/19 text-xs font-light leading-191
+}
+@utility block-h4{
+    @apply text-center text-25 font-medium leading-178 tracking-1 mb-3
+}
+@utility block-p{
+    @apply text-center text-base text-block leading-178 tracking-1
+}
+@utility block-class{
+    @apply w-22 h-22 mx-auto lg:mb-10 mb-5 rounded-2xl flex items-center justify-center
 }
