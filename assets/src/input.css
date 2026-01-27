@@ -77,6 +77,7 @@
     --fs-25: 25px;
     --fs-65: 65px;
     --fs-35: 35px;
+    --fs-27: 27px;
     
 }
 
@@ -128,6 +129,9 @@
       --text-25: var(--fs-25);
       --text-65: var(--fs-65);
        --text-35: var(--fs-35);
+       --text-27: var(--fs-27);
+
+
 }
 
 @utility container-custom {
@@ -137,11 +141,22 @@
     @apply px-7.5 py-1 rounded-sm bg-light-black/19 text-xs font-light leading-191
 }
 @utility block-h4{
-    @apply text-center text-25 font-medium leading-178 tracking-1 mb-3
+    @apply text-center text-xl lg:text-25 font-medium leading-178 tracking-1 mb-3
 }
 @utility block-p{
-    @apply text-center text-base text-block leading-178 tracking-1
+    @apply text-center lg:text-base text-xs text-block leading-178 tracking-1
 }
 @utility block-class{
     @apply w-22 h-22 mx-auto lg:mb-10 mb-5 rounded-2xl flex items-center justify-center
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none; 
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+  }
 }
