@@ -59,8 +59,11 @@
     --box-purple: #F1E8FF;
     --light-green: #E2FFF1;
     --inert: #C4C4C4;
+    --const: #575757;
+    --dark-green: #183643;
 
     --leading-178: 1.78;
+    --leading-169: 1.69;
     --leading-211: 2.11;
     --leading-151: 1.51;
     --leading-211: 1.89;
@@ -78,6 +81,7 @@
     --fs-65: 65px;
     --fs-35: 35px;
     --fs-27: 27px;
+    --fs-32: 32px;
     
 }
 
@@ -110,8 +114,11 @@
     --color-box-purple:var(--box-purple);
     --color-light-green:var(--light-green);
     --color-inert:var(--inert);
+    --color-const:var(--const);
+    --color-dark-green:var(--dark-green);
 
     --leading-178: var(--leading-178);
+    --leading-169: var(--leading-169);
     --leading-211: var(--leading-211);
     --leading-151: var(--leading-151);
     --leading-189: var(--leading-189);
@@ -123,13 +130,14 @@
 
 
     --max-w-container-main: var(--container-main);
-     --text-42: var(--fs-42);
-     --text-15: var(--fs-15);
-     --text-9: var(--fs-9);
-      --text-25: var(--fs-25);
-      --text-65: var(--fs-65);
-       --text-35: var(--fs-35);
-       --text-27: var(--fs-27);
+    --text-42: var(--fs-42);
+    --text-15: var(--fs-15);
+    --text-9: var(--fs-9);
+    --text-25: var(--fs-25);
+    --text-65: var(--fs-65);
+    --text-35: var(--fs-35);
+    --text-27: var(--fs-27);
+    --text-32: var(--fs-32);
 
 
 }
