@@ -9,34 +9,32 @@
 <body>
 	<!--header start  -->
 		<header class="py-6 bg-primary  border-b border-light-gray" >
-				<div class="container-custom">
-					<div class="flex items-center">
-						<img src="../assets/images/logo-block.svg" alt="logo-svg">
-						<nav class="hidden lg:flex items-center text-normal ml-auto">
-							<a href="#" class=" relative text-base font-regular leading-100 pr-20">
-								Home
-								<span class="absolute -left-3 -bottom-10 w-19 h-1 bg-blue"></span>
-							</a>
-							<a href="#" title="About us" class="text-base font-regular leading-100 pr-17">About us</a>
-							<a href="#" title="Services" class="text-base font-regular leading-100 pr-15">Services</a>
-							<a href="#" title="News" class="text-base font-regular leading-100">News</a>
-							<a href="../pages/contact-us.html" title="Contact us" class="inline-flex px-6 py-2.5 rounded-sm border border-contact text-base font-regular leading-100 ml-16 lg:block">
-								Contact us
-							</a>
-						</nav>
-						<div class="flex items-center gap-4 lg:hidden ml-auto">
-							<img src="../assets/images/search-item.svg" alt="Search-logo" class="lg:hidden invert brightness-0 w-6" />
-							<img src="../assets/images/menu-logo.svg" alt="Menu logo" class="lg:hidden invert brightness-0 w-6" />
-						</div>
+			<div class="container-custom">
+				<div class="flex items-center">
+					<img src="../assets/images/logo-block.svg" alt="logo-svg">
+					<nav class="hidden lg:flex items-center text-normal ml-auto">
+						<a href="#" class="nav-link active relative text-base font-regular leading-100 pr-20">Home</a>
+						<a href="#" title="About us" class="nav-link text-base font-regular leading-100 pr-17">About us</a>
+						<a href="#" title="Services" class="nav-link text-base font-regular leading-100 pr-15">Services</a>
+						<a href="#" title="News" class="nav-link text-base font-regular leading-100">News</a>
+						<a href="../pages/contact-us.html" title="Contact us" class="inline-flex px-6 py-2.5 rounded-sm border border-contact text-base font-regular leading-100 ml-16 lg:block">
+							Contact us
+						</a>
+					</nav>
+					<div class="flex items-center gap-4 lg:hidden ml-auto">
+						<img src="../assets/images/search-item.svg" alt="Search-logo" class="lg:hidden invert brightness-0 w-6" />
+						<img src="../assets/images/menu-logo.svg" alt="Menu logo" class="lg:hidden invert brightness-0 w-6" />
 					</div>
 				</div>
+			</div>
 		</header>
 	<!--header end  -->
 
 	<!-- contact-us section start -->
-		<section>
+		<section class="lg:pb-0 pb-10">
 			<div class="grid grid-cols-1 lg:grid-cols-2">
-				<div class="pt-10 lg:pt-21 lg:px-23.5 px-5">
+				<div class="pt-10 lg:pt-21 lg:pr-23.5 pr-5 lg:pl-[calc((100vw-1210px)/2)]">
+					
 					<h2 class="lg:text-32 text-2xl leading-100 tracking-1 font-semibold lg:mb-14 mb-7">Contact <span class="text-blue">Us</span></h2>
 					<form class="lg:space-y-10 space-y-7">
 						<div>
@@ -65,23 +63,14 @@
 							<img src="../assets/images/const-ball.svg" alt="ball" class="w-5 lg:w-auto"/>
 							<div>
 								<h4 class="lg:text-25 text-sm font-semibold leading-100 tracking-1 pb-2">Address</h4>
-								<p class="lg:text-xl text-xs font-normal leading-169 tracking-1 max-w-99">
-								No 7, Katherine Place, Melbourne 3000,<br>
-								VIC Australia
-								</p>
+								<p class="lg:text-xl text-xs font-normal leading-169 tracking-1 max-w-99">No 7, Katherine Place, Melbourne 3000,VIC Australia</p>
 							</div>
 						</div>
 					</div>
 					<div class="absolute bottom-0 left-0 right-0 grid lg:grid-cols-3 grid-cols-1 h-36 text-normal text-xs lg:text-base font-normal leading-169 tracking-1 border-t border-normal/60 ">
-						<div class="flex items-center justify-center border-b lg:border-b-0 lg:border-r border-normal/60">
-							+61 420 992 332
-						</div>
-						<div class="flex items-center justify-center border-b lg:border-b-0 lg:border-r border-normal/60">
-							info@afq.com.au
-						</div>
-						<div class="flex  items-center justify-center">
-							www.afqtech.com.au
-						</div>
+						<a class="flex items-center justify-center border-b lg:border-b-0 lg:border-r border-normal/60">+61 420 992 332</a>
+						<a class="flex items-center justify-center border-b lg:border-b-0 lg:border-r border-normal/60">info@afq.com.au</a>
+						<a class="flex  items-center justify-center">www.afqtech.com.au</a>
 					</div>
 				</div>
 			</div>
@@ -89,7 +78,7 @@
 	<!-- contact-us section end  -->
 
 	<!-- footer start -->
-		<footer class="lg:mt-0 mt-10 bg-primary">
+		<footer class="bg-primary">
 			<div class="container-custom relative">
 				<div class="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr_2fr] gap-10 lg:gap-0 py-12 lg:py-18 relative">
 					<div class="pb-15 lg:pr-15 border-b  lg:border-b-0 lg:border-r border-normal text-normal h-71">
@@ -111,23 +100,23 @@
 							<span class="footer-span ">Lorem</span>
 						</div>  
 					</div>
-					<div class="px-0 lg:px-15 border-b  lg:border-b-0   lg:border-r border-normal text-normal ">
-						<h4 class="text-base lg:text-xl font-medium leading-191 mb-5"> Lorem Ipsum is simply</h4>
-						<div class="flex items-center max-w-71 h-9 bg-normal rounded-sm overflow-hidden mb-18">
+					<div class="px-0 lg:px-15  lg:border-b-0   lg:border-r border-normal text-normal ">
+						<h4 class="text-base lg:text-xl font-medium lg:leading-191 leading-none mb-4"> Lorem Ipsum is simply</h4>
+						<div class="flex items-center max-w-71 h-9 bg-normal rounded-sm overflow-hidden mb-12 lg:mb-18">
 							<input type="text" placeholder="Enter your name" class="flex-1 h-full px-4 text-sm text-secondary outline-none">
 							<button class="w-9 h-full bg-purple flex items-center justify-center">
 								<img src="../assets/images/search-item.svg" class="w-4 invert brightness-0">
 							</button>
 						</div>
-						<h5 class="text-base lg:text-xl font-medium leading-191 mb-4">Lorem Ipsum is simply</h5>
-						<p class="text-light-gray text-sm lg:text-base leading-191 font-normal"> Go to our official Announcements</p>
+						<h5 class="text-base lg:text-xl font-medium lg:leading-191 leading-none mb-4">Lorem Ipsum is simply</h5>
+						<p class="text-light-gray text-sm lg:text-base lg:leading-191 leading-none font-normal"> Go to our official Announcements</p>
 					</div>
 					<div class="pl-0 lg:pl-14 text-normal">
-						<h4 class="text-base lg:text-xl  font-medium leading-191 mb-6">  Lorem Ipsum is simply dummy</h4>
-						<p class="text-light-gray leading-191 text-sm lg:text-base font-normal mb-14 lg:mb-19">Go to DID requirements</p>
-						<h5 class="text-base lg:text-xl  font-medium leading-191 mb-4">Lorem Ipsum is simply</h5>
-						<p class="text-light-gray leading-191 text-sm lg:text-base font-normal ">To the knowledgebase</p>
-					</div>
+						<h4 class="text-base lg:text-xl  font-medium lg:leading-191 leading-none mb-4">  Lorem Ipsum is simply dummy</h4>
+						<p class="text-light-gray lg:leading-191 leading-none text-sm lg:text-base font-normal mb-12 lg:mb-19">Go to DID requirements</p>
+						<h5 class="text-base lg:text-xl  font-medium lg:leading-191 leading-none mb-4">Lorem Ipsum is simply</h5>
+						<p class="text-light-gray lg:leading-191 leading-none text-sm lg:text-base font-normal ">To the knowledgebase</p>
+					</div>	
 				</div>
 				<div class="static lg:absolute flex justify-center lg:justify-start gap-6 pb-13 lg:pb-0 lg:mt-0 right-6 lg:bottom-20">
 					<img src="../assets/images/insta-svg.svg" alt="instagram logo" class="w-6">
@@ -136,6 +125,7 @@
 					<img src="../assets/images/youtube.svg" alt="instagram logo" class="w-6">
 				</div>
 			</div>
+			<a class="flex text-center lg:text-sm text-xs leading-178 tracking-1 justify-center bg-normal text-card pt-4 pb-3">© Copyright ©2021 All rights reserved | Powered by Lorem</a>
 		</footer>
 	<!-- footer end -->
 </body>

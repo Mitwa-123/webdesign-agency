@@ -82,6 +82,8 @@
     --fs-35: 35px;
     --fs-27: 27px;
     --fs-32: 32px;
+
+    --radius-14: 14px;
     
 }
 
@@ -139,7 +141,7 @@
     --text-27: var(--fs-27);
     --text-32: var(--fs-32);
 
-
+    --radius-14: var(--radius-14);
 }
 
 @utility container-custom {
@@ -168,3 +170,25 @@
     scrollbar-width: none; 
   }
 }
+@layer components {
+  .nav-link {
+    @apply relative ;
+  }
+  .nav-link::after {
+    content: "";
+    @apply absolute -left-1 -bottom-10 h-1 w-0 bg-blue transition-all duration-300;
+  }
+  .nav-link.active::after {
+    @apply w-19;
+  }
+  .nav-link:hover::after {
+    @apply w-19;
+  }
+  nav:hover .nav-link.active::after {
+    @apply w-0;
+  }
+  nav:hover .nav-link:hover::after {
+    @apply w-19;
+  }
+}
+
